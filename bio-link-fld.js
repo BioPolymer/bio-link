@@ -55,7 +55,7 @@ class BioLinkFld extends PolymerElement {
       <div>
         <paper-input label="[[label]]" readonly="[[readonly]]" value="{{id}}">
           <iron-icon
-            icon="bio:launch"
+            icon="launch"
             slot="prefix"
             on-click="_handleTap"
           ></iron-icon>
