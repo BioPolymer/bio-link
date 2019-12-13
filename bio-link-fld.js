@@ -2,7 +2,7 @@ import { PolymerElement, html } from "@polymer/polymer/polymer-element.js";
 import "@polymer/paper-input/paper-input";
 import "@polymer/iron-icon/iron-icon";
 import "@polymer/iron-flex-layout/iron-flex-layout";
-import "../bio-icons/bio-icons";
+import "@biopolymer-elements/bio-icons";
 import "./bio-link-mixin";
 
 /**
