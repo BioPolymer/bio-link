@@ -3,7 +3,8 @@ import "@polymer/paper-input/paper-input";
 import "@polymer/iron-icon/iron-icon";
 import "@polymer/iron-flex-layout/iron-flex-layout";
 import "@biopolymer-elements/bio-icons/bio-icons";
-import "./bio-link-mixin";
+
+import {BioLinkMixin} from "./bio-link-mixin";
 
 /**
  * `bio-link-fld` Description
@@ -13,7 +14,7 @@ import "./bio-link-mixin";
  * @demo
  *
  */
-class BioLinkFld extends PolymerElement {
+class BioLinkFld extends BioLinkMixin(PolymerElement) {
   static get properties() {
     return {
       /** A flag that indicates whether or not the field is editable. */
