@@ -93,6 +93,10 @@ export const BioLinkMixin = superclass =>
      * @param {Event} e the event object
      */
     _handleTap(e) {
+      if(!this.id) {
+        return;
+      }
+
       var url = this.typeMap.get(this.type);
       if (url == null) {
         throw "Unrecognized database: " + this.type;
